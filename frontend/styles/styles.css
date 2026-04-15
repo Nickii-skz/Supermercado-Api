@@ -1,0 +1,66 @@
+﻿:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f6f3ff;
+  color: #252525;
+}
+
+body.bg-soft {
+  background: linear-gradient(180deg, #f6f3ff 0%, #fff8f7 100%);
+}
+
+.card-soft {
+  background: #ffffffcc;
+  border-radius: 24px;
+}
+
+.navbar-white {
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.btn-primary {
+  background-color: #7b6aff;
+  border-color: #7b6aff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #5f4ce8;
+  border-color: #5f4ce8;
+}
+
+.table {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.table thead th {
+  border-bottom: none;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #f0edf9;
+}
+
+.table tbody tr:last-child {
+  border-bottom: none;
+}
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+  border-radius: 16px;
+}
+
+.alert {
+  border-radius: 16px;
+}
+
+.btn-outline-secondary {
+  color: #6c6c88;
+  border-color: #d9d3ff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f2efff;
+}
